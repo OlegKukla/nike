@@ -1,0 +1,167 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 0;
+    align-items: center;
+}
+
+.nav__item+.nav__item {
+    margin-left: 50px;
+}
+
+.nav__item {
+    transition: all .2s;
+}
+
+.nav__item:hover {
+    font-weight: 700;
+    border-bottom: 2px solid #000000;
+}
+
+.header__menu-link+.header__menu-link {
+    margin-left: 50px;
+}
+
+.banner__inner {
+    min-height: 380px;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    color: #fff;
+}
+
+.banner__left {
+    padding-left: 50px;
+    width: 50%;
+}
+
+.banner__title {
+    padding-top: 50px;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.banner__text {
+    max-width: 560px;
+    padding-top: 30px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.banner__button {
+    margin: 30px 0;
+    padding: 10px 25px;
+    background-color: #fff;
+    color: #000000;
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.banner__line {
+    width: 100%;
+}
+
+.bigBanner {
+    background-image: url(../images/big-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.bigBanner__logo {
+    display: block;
+    margin: auto;
+    padding: 284px 0;
+}
+
+.new__inner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.new__item {
+    min-width: 600px;
+    background: #EFEFEF;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    position: relative;
+    margin-top: -37px;
+}
+
+.new__text-inner {
+    padding-top: 60px;
+    padding-left: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.new__title {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FF3939;
+    padding-bottom: 10px;
+}
+
+.new__link {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+}
+
+.new__sneaker {
+    position: absolute;
+    top: -134px;
+    right: -86px;
+}
+
+.new__info {
+    text-align: center;
+    margin-top: 113px;
+}
+
+.new__info-text {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.new__info-text--dec {
+    font-style: italic;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 98px;
+}
