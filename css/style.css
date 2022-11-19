@@ -165,3 +165,119 @@ a {
     font-size: 80px;
     line-height: 98px;
 }
+
+.carousel {
+    margin-top: 103px;
+}
+
+.carousel__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    margin-bottom: 33px;
+}
+
+.carousel__item-box {
+    background: #EFEFEF;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    width: 393px;
+    height: 580px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+
+.carousel__item-bg-img {
+    position: absolute;
+    top: 60px;
+    right: 132px;
+}
+
+.carousel__item-img {
+    position: absolute;
+    top: 80px;
+    z-index: 2;
+}
+
+.carousel__item-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-left: 36px;
+    padding-top: 413px;
+}
+
+.carousel__item-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    padding-left: 36px;
+    padding-top: 30px;
+}
+
+.carousel__item-link {
+    margin-left: 321px;
+    margin-bottom: 45px;
+}
+
+.carousel__item-bg-img--dec {
+    top: 55px;
+}
+
+.carousel__inner .slick-arrow {
+    position: relative;
+    padding: 0px 60px;
+}
+
+
+.carousel__inner .slick-prev,
+.carousel__inner .slick-next {
+    position: absolute;
+    top: -53px;
+    right: 60px;
+    margin: -15px 0 0 0;
+    z-index: 2;
+    font-size: 0;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.carousel__inner .slick-prev {
+    right: 140px;
+    background-image: url(../images/slider/arrow-left.svg);
+    background-repeat: no-repeat;
+}
+
+.carousel__inner .slick-next {
+    background-image: url(../images/slider/arrow-right.svg);
+    background-repeat: no-repeat;
+}
+
+.category__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    margin-top: 100px;
+}
+
+.category__item {
+    display: flex;
+}
+
+.category__item-text,
+.category__item-img {
+    width: 50%;
+}
+
+.category__item-text {
+    text-align: center;
+    margin-top: 260px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.3em;
+}
